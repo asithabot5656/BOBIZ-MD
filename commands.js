@@ -553,7 +553,8 @@ await conn.sendMessage(from , { text: 'تعذر ارسال التطبيق آسف
 		case 'menu' :
 		case 'list' :      
 	        case 'panal' : 
-		 await conn.sendMessage(from , { audio : fs.readFileSync("./src/alive.mpeg") , mimetype : 'audio/mpeg' , ptt: true  } , { quoted: mek })
+		 await conn.sendMessage(from , { audio : fs.readFileSync("./src/alive.mpeg")("./src/pinnaya.mp3")
+						, mimetype : 'audio/mpeg' , ptt: true  } , { quoted: mek })
 		      const msg = `╭────────────────────╮
                   BOBIZ BOT
 ╰────────────────────╯
